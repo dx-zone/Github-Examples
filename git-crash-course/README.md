@@ -117,9 +117,10 @@ git branch
 Create a new branch
 ```
 git branch branch-name
+git checkout -b dev
 ```
 
-Checkout the branch
+Checkout (switch) branch
 
 ```
 git checkout dev
