@@ -19,5 +19,5 @@
     "ghcr.io/devcontainers/features/ruby:1": {},
     "ghcr.io/devcontainers/features/go:1": {}
   },
-  "postCreateCommand": "echo 'deb https://packages.chef.io/repos/apt/stable focal main' | sudo tee /etc/apt/sources.list.d/chef-stable.list; apt-get update; apt install chefdk -y"
+  "postCreateCommand": "echo 'deb https://packages.chef.io/repos/apt/stable focal main' | sudo tee /etc/apt/sources.list.d/chef-stable.list; sudo apt-get update; sudo apt install chefdk -y"
 }
