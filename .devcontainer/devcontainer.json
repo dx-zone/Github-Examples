@@ -11,6 +11,12 @@
 },
 "features": {
 	"ghcr.io/devcontainers/features/github-cli:1": {},
-	"ghcr.io/devcontainers/features/terraform:1": {}
+	"ghcr.io/devcontainers/features/terraform:1": {},
+	"ghcr.io/devcontainers-contrib/features/packer-asdf:2": {},
+	"ghcr.io/devcontainers-contrib/features/vault-asdf:2": {},
+	"ghcr.io/devcontainers/features/aws-cli:1": {},
+	"ghcr.io/dhoeric/features/google-cloud-cli:1": {},
+	"ghcr.io/devcontainers/features/ruby:1": {},
+	"ghcr.io/devcontainers/features/go:1": {}
   }
 }
